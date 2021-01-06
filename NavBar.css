@@ -1,0 +1,109 @@
+@charset "ISO-8859-1";
+
+h1 {
+border-bottom: 1px solid black;
+background-color: #2F70B4;
+height:55px;
+padding-top:65px;
+font-family:Poppins;
+text-align: center; 
+}
+
+#h1 {
+	text-align: center;
+	display:inline;
+	background-color: #2F70B4;
+	position: absolute;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    centre: 100%;
+    margin-left: 0;  
+	
+}
+
+ul {
+	position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px ;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #2F70B4;
+}
+    
+ body {
+    background-color: #C1BCBB;
+    margin: 0px;
+    padding: 0px;
+ }
+ 
+ .product{
+	border: 3px solid #239493; 
+	padding:10px;
+	margin:10px;
+	background-color:#000000;	
+	color:#ffffff;
+	font-size:20px;
+}
+
+.thumb {
+	width:400px;
+	height:300px;
+	text-align:middle;	
+    float: left;
+    margin-right:1rem;	
+
+}
+
+.detailView{
+	width:550px;
+	height:400px;
+	text-align:middle;	
+    float: left;
+    margin-right:1rem;	
+    border:5px solid black;
+    
+}
+
+
+/*Div wrappers to replace table elements */
+divTable{
+	display: table;
+	width: 50%;
+	padding: 10px;
+	margin-left:50px;
+}
+.divTableRow {
+	display: table-row;
+}
+
+.divTableHead {
+	border: 1px solid;
+	display: table-cell;
+	padding: 3px 10px;
+	font-weight:bold;
+}
+.divTableCell { 
+	border: 1px solid;
+	display: table-cell;
+	padding: 3px 10px;
+}
